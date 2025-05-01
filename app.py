@@ -7,13 +7,13 @@ from ml import predict
 
 # Set page configuration
 st.set_page_config(
-    page_title="Udemy Course Trend Analysis & Prediction",
+    page_title="Online Learning Course Trend Analysis & Prediction",
     layout="wide",
     initial_sidebar_state="expanded"
 )
 
 # App title
-st.title("📊 Udemy Course Trend Analysis & Prediction")
+st.title("📊 Online Learning Course Trend Analysis & Prediction")
 
 # Load data
 @st.cache_data
